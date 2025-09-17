@@ -5,7 +5,7 @@ const estudantes = [];
 const calcularMedia = (notas) => notas.length > 0 ? notas.reduce((acc, nota) => acc + nota, 0) / notas.length : 0;
 
 const menu = () => {
-  console.log("\n📂 Genrenciador de Estudantes, o que deseja fazer? 🤔");
+  console.log("\n📂 Gerenciador de Estudantes, o que deseja fazer? 🤔");
   console.log("1. Cadastrar 💻");
   console.log("2. Listar Todos 📝");
   console.log("3. Buscar por Nome 🔍");
